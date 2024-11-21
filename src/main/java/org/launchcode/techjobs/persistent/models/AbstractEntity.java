@@ -9,6 +9,8 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 import java.util.Objects;
+/* this  class only used when Job, Employer, Skill classes inherits id, name field & methods.
+not associated with any database*/
 
 @MappedSuperclass
 public abstract class AbstractEntity {
